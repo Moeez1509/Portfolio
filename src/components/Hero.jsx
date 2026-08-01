@@ -1,5 +1,6 @@
 import { personalInfo, techStack } from "../constants/data";
-
+import { motion } from "framer-motion";
+import { fadeLeft, fadeRight } from "../animations/variants";
 function Hero() {
   return (
     <section
@@ -9,7 +10,12 @@ function Hero() {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
         {/* Left */}
-        <div>
+        <motion.div
+  variants={fadeLeft}
+  initial="hidden"
+  animate="visible"
+>
+          
           <p className="text-blue-400 text-lg mb-3">
             👋 Hello, I'm
           </p>
@@ -52,16 +58,21 @@ function Hero() {
     </span>
   ))}
 </div>
-        </div>
+       </motion.div>
 
         {/* Right */}
-        <div className="flex justify-center">
-          <img
-            src="\Moeezpic.png"
-            alt="Moeez"
-            className="w-80 rounded-full border-4 border-blue-500 shadow-2xl"
-          />
-        </div>
+       <motion.div
+  variants={fadeRight}
+  initial="hidden"
+  animate="visible"
+  className="flex justify-center items-center"
+>
+  <img
+    src={personalInfo.profileImage}
+    alt="Profile"
+    className="w-80 h-80 object-cover rounded-full border-4 border-blue-500"
+  />
+</motion.div>
 
       </div>
     </section>

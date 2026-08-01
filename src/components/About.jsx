@@ -1,6 +1,8 @@
 import { about } from "../constants/data";
 import { FaCode, FaLaptopCode, FaGraduationCap } from "react-icons/fa";
 import SectionTitle from "./common/SectionTitle";
+import { motion } from "framer-motion";
+import { fadeUp } from "../animations/variants";
 
 function About() {
   return (
@@ -8,7 +10,12 @@ function About() {
       id="about"
       className="py-28 bg-slate-950"
     >
-      <div className="max-w-7xl mx-auto px-6">
+      <motion.div
+variants={fadeUp}
+initial="hidden"
+whileInView="visible"
+viewport={{ once: true }}
+>
 
        <SectionTitle
     title="About Me"
@@ -79,7 +86,7 @@ function About() {
 
         </div>
 
-      </div>
+      </motion.div>
     </section>
   );
 }

@@ -12,7 +12,7 @@ export const personalInfo = {
 
   resume: "/resume.pdf",
 
-  profileImage: "/profile.png",
+  profileImage: "/Moeezpic.png",
 };
 export const skills = [
   {
@@ -77,15 +77,17 @@ export const projects = [
     id: 1,
     title: "Taxi Booking System",
     description:
-      "Complete taxi booking platform connecting passengers and drivers.",
+      "A complete full-stack taxi booking platform where passengers can book rides and drivers can manage requests.",
 
     image: "/projects/taxi.png",
 
-    tech: ["PHP", "MySQL", "JavaScript"],
+    technologies: ["PHP", "MySQL", "JavaScript"],
 
     github: "https://github.com/Moeez1509/Taxi",
 
-    live: "",
+    live: "#",
+
+    featured: true,
   },
 
   {
@@ -93,31 +95,35 @@ export const projects = [
     title: "Rental Hub",
 
     description:
-      "Property rental platform with booking and management system.",
+      "Property rental application with booking and property management.",
 
     image: "/projects/rentalhub.png",
 
-    tech: ["PHP", "JavaScript"],
+    technologies: ["PHP", "Laravel", "MySQL"],
 
     github: "https://github.com/Moeez1509/Rental-hub",
 
-    live: "",
+    live: "#",
+
+    featured: true,
   },
 
   {
     id: 3,
-    title: "Online Food Ordering",
+    title: "Food Ordering System",
 
     description:
-      "Food delivery platform with ordering and payment.",
+      "Online food ordering platform with menu, ordering and payment flow.",
 
     image: "/projects/food.png",
 
-    tech: ["PHP", "MySQL"],
+    technologies: ["PHP", "MySQL"],
 
     github: "https://github.com/Moeez1509/Online-Food-Ordering-System",
 
-    live: "",
+    live: "#",
+
+    featured: false,
   },
 ];
 export const navLinks = [
@@ -161,4 +167,12 @@ export const about = {
   education: "Software Engineering",
 
   location: "Islamabad, Pakistan",
+};
+export const contactInfo = {
+  email: "moeezintasar05@gmail.com",
+  phone: "+92 3115711279",
+  location: "Islamabad, Pakistan",
+
+  github: "https://github.com/Moeez1509",
+  linkedin: "https://www.linkedin.com/in/moeez-intasar-1a43222a8/",
 };
