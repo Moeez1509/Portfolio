@@ -79,11 +79,11 @@ export const projects = [
     description:
       "A complete full-stack taxi booking platform where passengers can book rides and drivers can manage requests.",
 
-    image: "/projects/taxi.png",
+    image: "/projects/taxi-web.png",
 
     technologies: ["PHP", "MySQL", "JavaScript"],
 
-    github: "https://github.com/Moeez1509/Taxi",
+    github: "https://github.com/Moeez1509/Laravel-Taxi",
 
     live: "#",
 
@@ -97,7 +97,7 @@ export const projects = [
     description:
       "Property rental application with booking and property management.",
 
-    image: "/projects/rentalhub.png",
+    image: "/projects/rental-hub.png",
 
     technologies: ["PHP", "Laravel", "MySQL"],
 
@@ -110,16 +110,16 @@ export const projects = [
 
   {
     id: 3,
-    title: "Food Ordering System",
+    title: "E-commerce Website",
 
     description:
-      "Online food ordering platform with menu, ordering and payment flow.",
+      "A complete e-commerce platform with product listings, shopping cart, and checkout functionality.",
 
-    image: "/projects/food.png",
+    image: "/projects/E-commernece.png",
 
     technologies: ["PHP", "MySQL"],
 
-    github: "https://github.com/Moeez1509/Online-Food-Ordering-System",
+    github: "https://github.com/Moeez1509/E-commerence-laravel",
 
     live: "#",
 
