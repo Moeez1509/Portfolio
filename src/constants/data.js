@@ -176,3 +176,41 @@ export const contactInfo = {
   github: "https://github.com/Moeez1509",
   linkedin: "https://www.linkedin.com/in/moeez-intasar-1a43222a8/",
 };
+export const education = [
+  {
+    id: 1,
+    degree: "Bachelor of Software Engineering",
+    institute: "International Islamic University Islamabad",
+    duration: "2023 - Present",
+    status: "Current",
+  },
+
+  {
+    id: 2,
+    degree: "Intermediate (Pre-Engineering)",
+    institute: "Punjab Group of Colleges",
+    duration: "2021 - 2023",
+    status: "Completed",
+  },
+
+  {
+    id: 3,
+    degree: "Matriculation",
+    institute: "BISE Rawalpindi",
+    duration: "2019 - 2021",
+    status: "Completed",
+  },
+];
+export const certificates = [
+  {
+    id: 1,
+    title: "Robotics Fundamentals",
+    issuer: "Certification",
+  },
+
+  {
+    id: 2,
+    title: "Amazon Virtual Assistant Training",
+    issuer: "Training Program",
+  },
+];

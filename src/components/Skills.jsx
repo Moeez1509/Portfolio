@@ -1,10 +1,18 @@
 import { skills } from "../constants/data";
 import SkillCard from "./SkillCard";
 import SectionTitle from "./common/SectionTitle";
+import { motion } from "framer-motion";
+import { fadeUp } from "../animations/variants";
 
 function Skills() {
-  return (
-    <section id="skills" className="py-28">
+  return (       <motion.section
+  id="skills"
+  className="py-28"
+  variants={fadeUp}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true, amount: 0.2 }}
+>
 
       <div className="max-w-7xl mx-auto px-6">
 
@@ -28,7 +36,7 @@ function Skills() {
 
       </div>
 
-    </section>
+    </motion.section>
   );
 }
 
