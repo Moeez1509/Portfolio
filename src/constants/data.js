@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Moeez Intasar",
   title: "Full Stack Developer",
   subtitle:
-    "Software Engineering Student passionate about building modern, responsive and scalable web applications.",
+    "Full Stack Developer building modern, responsive, and scalable web applications with React and Laravel.",
 
   email: "moeezintasar05@gmail.com",
   phone: "+92 3115711279",
@@ -10,7 +10,7 @@ export const personalInfo = {
   github: "https://github.com/Moeez1509",
   linkedin: "https://linkedin.com/in/moeez-intasar",
 
-  resume: "/resume.pdf",
+  resume: "/Moeez Intasar(CV).pdf",
 
   profileImage: "/Moeezpic.png",
 };
@@ -160,7 +160,7 @@ export const navLinks = [
 export const about = {
   title: "About Me",
 
-  description: `I'm a Software Engineering student at International Islamic University Islamabad with a strong passion for Full Stack Web Development. I enjoy building responsive, scalable, and user-friendly web applications while continuously learning modern technologies.`,
+  description: `I create production-ready web applications with attention to speed, usability, and polished UI. As a Software Engineering student, I combine my academic knowledge with hands-on experience in React, Tailwind CSS, PHP, and Laravel to deliver real business value.`,
 
   experience: "20+ Projects",
 

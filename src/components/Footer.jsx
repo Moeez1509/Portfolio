@@ -1,6 +1,8 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { contactInfo } from "../constants/data";
 
+const currentYear = new Date().getFullYear();
+
 function Footer() {
   return (
     <footer className="border-t border-slate-800 bg-slate-950">
@@ -43,9 +45,7 @@ function Footer() {
         </div>
 
         <div className="border-t border-slate-800 mt-8 pt-6 text-center text-slate-500">
-
-          © 2026 Moeez Intasar | Built with React, Tailwind CSS & Passion.
-
+          © {currentYear} Moeez Intasar | Built with React, Tailwind CSS & Passion.
         </div>
 
       </div>

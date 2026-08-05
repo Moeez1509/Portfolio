@@ -7,10 +7,11 @@ function Projects() {
     <section id="projects" className="py-28 bg-slate-950">
       <div className="max-w-7xl mx-auto px-6">
 
-        <SectionTitle
-          title="Featured Projects"
-          subtitle="Portfolio"
-        />
+        <SectionTitle title="Featured Projects" subtitle="Portfolio" />
+
+        <p className="text-center text-slate-400 max-w-2xl mx-auto mb-12">
+          Real-world applications crafted with a focus on clean architecture, strong performance, and intuitive design.
+        </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 

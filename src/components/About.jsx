@@ -48,6 +48,12 @@ viewport={{ once: true }}
               {about.description}
             </p>
 
+            <div className="mt-8 grid gap-4 text-slate-300">
+              <p>• Expert in building responsive single-page applications with React.</p>
+              <p>• Strong experience in Laravel, MySQL, and backend API integration.</p>
+              <p>• Focused on clean code, performance, and polished UI/UX.</p>
+            </div>
+
             <div className="grid grid-cols-3 gap-5 mt-10">
 
               <div className="bg-slate-900 rounded-xl p-5 text-center">
